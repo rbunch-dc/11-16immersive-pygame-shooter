@@ -9,6 +9,10 @@ def check_events(hero):
 		if event.type == pygame.QUIT:
 			# Stop the game, the user wants off
 			sys.exit();
+
+		elif event.type == pygame.MOUSEBUTTONDOWN:
+			
+
 		# check for key press
 		elif event.type == pygame.KEYDOWN:
 			# print event.key;
